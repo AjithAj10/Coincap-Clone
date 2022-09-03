@@ -5,14 +5,23 @@ import { useSelector } from 'react-redux';
 function TableBody(props) {
     const [Apidata,setData] = useState();
     const State = useSelector(state => state);
-    console.log(State);
+    //console.log(State);
 
-    useEffect(() => {
+    let apiFetch= () => {
         axios.get('https://api.coincap.io/v2/assets')
         .then(e =>{
-            //console.log(e.data.data[0]);
+            console.log('call');
             setData(e.data.data);
         })
+    }
+    useEffect(() => {
+        apiFetch();
+
+        let interval = setInterval(() => {
+            apiFetch();
+        },2000)
+
+        return () => clearInterval(interval);
     },[])
     return (
         //https://assets.coincap.io/assets/icons/eth%402x.png

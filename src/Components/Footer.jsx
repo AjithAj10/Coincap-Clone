@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <footer mt-0>
+    <footer>
       <div className="coincap col-sm-3">
         <div className="head">COINCAP.IO</div>
         <div className="body">
@@ -30,7 +30,7 @@ function Footer(props) {
       <div className="follow col-sm-3">
         <div className="head">Follow us</div>
         <div className="body">
-        <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i>
+        <i className="fa-brands fa-twitter"></i> <i className="fa-brands fa-facebook"></i>
         </div>
       </div>
       <div className="available col-sm-3">
