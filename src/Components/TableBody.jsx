@@ -24,10 +24,10 @@ function TableBody(props) {
                         <td>{e.rank}</td>
                         <td className='name'><img className='coinImg' src={`https://assets.coincap.io/assets/icons/${(e.symbol).toLowerCase()}%402x.png`} alt={e.symbol}/>
                         <div>{e.name}<br/><span>{e.symbol}</span> </div></td>
-                        <td>${ parseFloat( e.priceUsd).toFixed(2)}</td>
-                        <td>${ (parseFloat(e.marketCapUsd)/1000000000).toFixed(2)}b</td>
-                        <td>{e.vwap24Hr ?'$'+ parseFloat( e.vwap24Hr).toFixed(2) : '--'}</td>
-                        <td>{ (parseFloat(e.supply)/1000000000).toFixed(2)}b</td>
+                        <td className='priority-3'>${ parseFloat( e.priceUsd).toFixed(2)}</td>
+                        <td className='priority-5'>${ (parseFloat(e.marketCapUsd)/1000000000).toFixed(2)}b</td>
+                        <td className='priority-4'>{e.vwap24Hr ?'$'+ parseFloat( e.vwap24Hr).toFixed(2) : '--'}</td>
+                        <td className='priority-3'>{ (parseFloat(e.supply)/1000000000).toFixed(2)}b</td>
                         
                         <td>${ vol >1000 ? (vol/1000).toFixed(2) +'b': vol +'m' }</td>
                         <td className={ parseFloat(e.changePercent24Hr) < 0 ? 'red' : 'green'}>{ (parseFloat(e.changePercent24Hr)).toFixed(2)}%</td>

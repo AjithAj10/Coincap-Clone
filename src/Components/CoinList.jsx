@@ -16,10 +16,10 @@ function CoinList(props) {
             <th>Rank</th>
             <th className='name' id='name'>Name</th>
             <th>Price</th>
-            <th>Market cap</th>
-            <th>VWap(24hr)</th>
-            <th>Supply</th>
-            <th>Volume</th>
+            <th className='priority-3'>Market cap</th>
+            <th className='priority-5'>VWap(24hr)</th>
+            <th className='priority-4'>Supply</th>
+            <th className='priority-3'>Volume</th>
             <th>Change(24hr)</th>
           </tr>
         </thead>

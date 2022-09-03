@@ -153,3 +153,85 @@ display: flex;
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 900px){
+  Table{
+    background-color: white !important;
+    border-radius: 5px !important;
+    text-align: right;
+    font-weight:auto;
+    margin-top: 1rem;
+    width: 100% !important;
+    overflow-x: hidden !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mainBg{
+    background-color: #e8e8e9;
+    padding: 0;
+  }
+  #name{
+    margin-left: 0rem;
+  }
+  #last{
+    display: none;
+  }
+  footer{
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .background{
+    padding-top: 5.2rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    background: linear-gradient(90deg, rgba(63,82,182,1) 30%, rgba(99,179,245,1) 100%);
+  }
+  .priority-5{
+    display:none;
+  }
+  .priority-4{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .background{
+    margin-top: 1rem;
+    height: 3rem;
+  }
+
+  Table{
+    font-size: 14px;
+  }
+ .first{
+  display: none;
+ }
+ footer{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .priority-5{
+  display:none;
+}
+.priority-4{
+  display:none;
+}
+.priority-3{
+  display:none;
+}
+
+}
+
+@media screen and (max-width: 400px){
+  .coinImg{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-left: 0.5rem;
+  }
+}

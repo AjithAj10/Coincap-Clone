@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <footer mt-0 col-md-12>
-      <div className="coincap col-md-3">
+    <footer mt-0>
+      <div className="coincap col-sm-3">
         <div className="head">COINCAP.IO</div>
         <div className="body">
           <p>Methedology<br/>
@@ -13,7 +13,7 @@ function Footer(props) {
           Careers</p>
         </div>
       </div>
-      <div className="legal  col-md-3">
+      <div className="legal col-sm-3">
         <div className="head">Legals</div>
         <div className="body">
           <p>Terms of service<br/>
@@ -27,13 +27,13 @@ function Footer(props) {
         </p>
         </div>
       </div>
-      <div className="follow  col-md-3">
+      <div className="follow col-sm-3">
         <div className="head">Follow us</div>
         <div className="body">
         <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i>
         </div>
       </div>
-      <div className="available  col-md-3">
+      <div className="available col-sm-3">
       <div className="head">COINCAP APP AVAILABLE ON
 </div>
         <div className="body">

@@ -32,7 +32,7 @@ const Header = (props) => {
         </Container>
         <Container>
 
-        <Nav className="me-auto">
+        <Nav className="me-auto" id='last'>
             <Nav.Link href="#link"><i className="fa-solid fa-magnifying-glass"></i></Nav.Link>
             <Nav.Link href="#home"><i className="fa-solid fa-gear"></i></Nav.Link>
             <Button>Connect wallet</Button>
