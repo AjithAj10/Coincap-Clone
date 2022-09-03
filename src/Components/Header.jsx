@@ -19,22 +19,22 @@ const Header = (props) => {
             <Nav.Link href="#link">Swap</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <Container style={{marginLeft:'4rem'}}>
+        <Container style={{marginLeft:'5rem', marginRight:'2rem'}}>
           <Navbar.Brand href="#home">
             <img
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CRq-3-3Q7Qw0O3B0qzjb1gHaDh%26pid%3DApi&f=1"
-              width="115"
+              src="https://coincap.io/static/logos/black.svg"
+              width="80"
               height="50"
               className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              alt="CoinCap logo"
             />
           </Navbar.Brand>
         </Container>
         <Container>
 
         <Nav className="me-auto">
-            <Nav.Link href="#link"><i class="fa-solid fa-magnifying-glass"></i></Nav.Link>
-            <Nav.Link href="#home"><i class="fa-solid fa-gear"></i></Nav.Link>
+            <Nav.Link href="#link"><i className="fa-solid fa-magnifying-glass"></i></Nav.Link>
+            <Nav.Link href="#home"><i className="fa-solid fa-gear"></i></Nav.Link>
             <Button>Connect wallet</Button>
           </Nav>
         </Container>

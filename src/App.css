@@ -2,8 +2,8 @@
   text-align: center;
 }
 .mainBg{
-  background-color: #eceff1;
-  padding: 5rem;
+  background-color: #e8e8e9;
+  padding: 5rem 5rem 2rem 5rem;
 }
 
 Button{
@@ -16,12 +16,20 @@ Button{
   border: none  !important;
   outline: none !important;
   margin-left: 1rem !important;
-
+  box-shadow: 1px 1px 6px 3px rgba(0,0,0,0.2) ;
 }
 
+#more{
+  margin-top: 5px !important;
+  margin-bottom: -10px !important;
+  
+}
 Button:hover{
- 
+  transition-delay: 3s;
+transform: translateY(-3px);
+  
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,6 +45,46 @@ Table{
   font-weight:400;
   padding-right: 1rem !important;
   margin-top: -11.2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+  display: flex;
+  background: linear-gradient(90deg, rgba(63,82,182,1) 30%, rgba(99,179,245,1) 100%);
+  color: white;
+  padding: 2rem 5rem 1rem 6rem;
+}
+
+.head{
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.background .body{
+  text-align: center;
+  margin-top: -17px;
+  font-size: x-large;
+  color: #ffffff;
+}
+.body{
+  text-align: left;
+font-size: small;
+color: #cbcbda;
+}
+.body i{
+  font-size:x-large;
+}
+.follow{
+  margin-left: 1rem;
+}
+.item img{
+  width: 9rem;
+  margin-top: 1rem;
+}
+tr:hover{
+  background-color: #efeff0 !important;
+  cursor: pointer;
 }
 i{
   margin-left: 1rem;
@@ -67,7 +115,11 @@ display: flex;
   color: rgb(14, 184, 14);
 }
 .background{
-  padding: 5rem 3rem 4rem 4rem;
+  padding-top: 1.2rem;
+  color: white;
+ 
+  display: flex;
+  justify-content: space-evenly;
   margin-top: 4rem;
   height: 13rem;
   background: linear-gradient(90deg, rgba(63,82,182,1) 30%, rgba(99,179,245,1) 100%);

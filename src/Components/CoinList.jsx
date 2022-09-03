@@ -26,7 +26,7 @@ function CoinList(props) {
        <TableBody/>
       </Table>
       {
-        State === 50 ? <Button variant="success" onClick={() => dispatch(more(100))}>View More</Button> :
+        State === 50 ? <Button variant="success" id='more' onClick={() => dispatch(more(100))}>View More</Button> :
         <Button variant="success" onClick={() => dispatch(more(50))}>View Less</Button>
       }
       
