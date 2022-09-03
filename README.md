@@ -1,3 +1,20 @@
+# Coincap-Clone
+
+## Description
+This app is a clone of the coin cap website :- https://coincap.io/
+
+## Teck stack
+<ol>
+<li>React</li>
+<li>Axios</li>
+<li>Redux</li>
+<li>JavaScript</li>
+<li>React Bootstrap</li>
+<li>HTML</li>
+<li>CSS</li>
+</ol>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

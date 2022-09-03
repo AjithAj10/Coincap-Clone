@@ -1,12 +1,77 @@
 .App {
   text-align: center;
 }
+.mainBg{
+  background-color: #eceff1;
+  padding: 5rem;
+}
 
+Button{
+  background-color: rgb(24, 198, 131) !important;
+  border-radius: 100px !important;
+  background-origin: padding-box !important;
+  background-clip: border-box !important;
+  font-size: large;
+  font-weight: 600 !important;
+  border: none  !important;
+  outline: none !important;
+  margin-left: 1rem !important;
+
+}
+
+Button:hover{
+ 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+th{
+  font-weight: 300;
+  color: #444444;
+}
+Table{
+  background-color: white !important;
+  border-radius: 5px !important;
+  text-align: right;
+  font-weight:400;
+  padding-right: 1rem !important;
+  margin-top: -11.2rem;
+}
+i{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.coinImg{
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-left: 1.5rem;
+}
+span{
+  color: #78797a;
+}
+#name{
+  margin-left: 1rem;
+}
+.name{
+text-align: left;
+display: flex;
+}
 
+.red{
+  color: red;
+}
+.green{
+  color: rgb(14, 184, 14);
+}
+.background{
+  padding: 5rem 3rem 4rem 4rem;
+  margin-top: 4rem;
+  height: 13rem;
+  background: linear-gradient(90deg, rgba(63,82,182,1) 30%, rgba(99,179,245,1) 100%);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
