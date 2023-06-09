@@ -1,5 +1,5 @@
 # Coincap-Clone
-## Deploy -> https://ubiquitous-froyo-2e4382.netlify.app/
+ Deploy -> https://ubiquitous-froyo-2e4382.netlify.app/
 ## Description
 This app is a clone of the coin cap website :- https://coincap.io/
 
